@@ -1,8 +1,11 @@
+Hello welcome to my Github
 - 👋 Hi, I’m @Swasti-Srivastava
-- 👀 I’m interested in Computer Science 
-- 🌱 I’m currently learning java and python
-- 💞️ I’m looking to collaborate on web dev
-- 📫 How to reach me @slivsrivastava1@gmail.com
+- My name is Savi Srivastava
+- I am currently a Computer Science: Game Deisgn student UC Santa Cruz
+- 🌱 I am currently profiencent in Java and Python
+- I have done projects in unity and Android studios
+- 💞️ I’m looking to learn more about wed devlopemnt
+- 📫 How to reach me @sriv.sav@gmail.com
 
 
 <!---
