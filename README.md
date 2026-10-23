@@ -114,8 +114,6 @@ Most of what's on here started with an idea for something I'd actually use: a cl
   </tr>
 </table>
 
-**In progress:** [dreampage](https://github.com/Swasti-Srivastava/dreampage), a book tracking site built with plain HTML, CSS, and JavaScript.
-
 ---
 
 <p align="center">
