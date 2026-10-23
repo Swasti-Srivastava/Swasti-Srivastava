@@ -25,6 +25,7 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
@@ -60,7 +61,8 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 
 ### What I like building
 
-- **AI and computer vision.** Real-time systems that watch a camera feed and decide when something's wrong.
+- **AI agents and computer vision.** Systems that watch a camera feed or a stream of logs and decide when something's wrong.
+- **Security.** Using AI to investigate cloud attacks and cut down on false alarms.
 - **Mobile apps.** Three of my projects are Android apps written in Java, using the camera, the accelerometer, and live API data.
 - **Games.** Real-time game loops, collision detection, scoring, timers, and leaderboards.
 - **Full-stack web apps.** A React frontend talking to an Express server and a database, with user accounts.
@@ -69,9 +71,15 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/calebmitchelllll/Sentinel-AI">Sentinel AI</a></h4>
+      An AI incident-response platform for AWS. It simulates real cloud attacks with Stratus Red Team techniques, then a team of LLM agents (Detective, Forensics, Remediation, Validator, and Reporter) investigates the CloudTrail logs and writes an incident report. A Meta Agent checks the other agents' work. Team project: I worked on the Meta Agent's false-positive fixes, scope rules, and hallucination scoring, and on the Reporter's structured output.
+      <br><br>
+      <code>TypeScript</code> <code>Next.js</code> <code>NVIDIA Nemotron</code> <code>Supabase</code> <code>AWS CloudTrail</code>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/Swasti-Srivastava/DriveGuard">DriveGuard</a></h4>
-      An edge AI driver monitor that watches a camera feed for signs of drowsiness, like eyes closing, yawning, and head tilt, and sounds alerts when the driver is at risk. Built as a team with Caleb Mitchell, Aiden Luo, and Poorvi Sharma. I set up the project and wrote the drowsiness scoring, which uses eye and mouth aspect ratios and a per-driver baseline, along with its tests.
+      An edge AI driver monitor that watches a camera feed for signs of drowsiness, like eyes closing, yawning, and head tilt, and sounds alerts when the driver is at risk. Team project with Caleb Mitchell, Aiden Luo, and Poorvi Sharma: I set up the project and wrote the drowsiness scoring, which uses eye and mouth aspect ratios and a per-driver baseline.
       <br><br>
       <code>Python</code> <code>OpenCV</code> <code>MediaPipe</code> <code>FastAPI</code>
     </td>
