@@ -24,6 +24,7 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 **Languages**
 
 <p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
@@ -59,6 +60,7 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 
 ### What I like building
 
+- **AI and computer vision.** Real-time systems that watch a camera feed and decide when something's wrong.
 - **Mobile apps.** Three of my projects are Android apps written in Java, using the camera, the accelerometer, and live API data.
 - **Games.** Real-time game loops, collision detection, scoring, timers, and leaderboards.
 - **Full-stack web apps.** A React frontend talking to an Express server and a database, with user accounts.
@@ -66,6 +68,14 @@ Most of what's on here started with an idea for something I'd actually use: a cl
 ### Featured projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4><a href="https://github.com/Swasti-Srivastava/DriveGuard">DriveGuard</a></h4>
+      An edge AI driver monitor that watches a camera feed for signs of drowsiness, like eyes closing, yawning, and head tilt, and sounds alerts when the driver is at risk. Built as a team with Caleb Mitchell, Aiden Luo, and Poorvi Sharma. I set up the project and wrote the drowsiness scoring, which uses eye and mouth aspect ratios and a per-driver baseline, along with its tests.
+      <br><br>
+      <code>Python</code> <code>OpenCV</code> <code>MediaPipe</code> <code>FastAPI</code>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Swasti-Srivastava/TiltProject">TiltProject</a></h4>
